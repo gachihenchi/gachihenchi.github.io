@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="https://gachihenchi.github.io/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <title>How Eth2 Works? Part I</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://gachihenchi.github.io/">Virdex</a></h2>
+    <nav>
+        <ul>
+            
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>How Eth2 Works? Part I</h1><time>October 27, 2020</time></header><p><img src="/images/vali.png" alt="image">(I was an validator of the Medalla testnet. Yes, &ldquo;was&rdquo;. After an upgrade  of the Prysm client, there was something wrong and I could not fix it.  After that, I recklessly deleted the whole Ubuntu OS. I need to be honest. :0 )</p>
+<p><strong>Disclaimer:</strong> This series of articles is only writing for fun cause I just wrote down what I learned. Oh, these posts may have some mistakes and be outdated in the future. Just don&rsquo;t be serious though I am convinced that I explain it very subtly and deeply. :)</p>
+<h1 id="see-vitaliks-view-of-eth-20-roadmap-first">See Vitalik&rsquo;s view of ETH 2.0 roadmap first</h1>
+<p><img src="/images/map.jpeg" alt="image">
+(Tweeted  by Vitalik on his <a href="https://twitter.com/vitalikbuterin/status/1240365047421054976">twitter</a>. )</p>
+<h1 id="so-where-are-we-now">So where are we now?</h1>
+<p><del>“As I understand it, we are good to go: deposit contract in the next few days; beacon chain genesis 6-8 weeks later.” said by ConsenSys developer Ben Edgington <a href="https://hackmd.io/@benjaminion/eth2_news/https%3A%2F%2Fhackmd.io%2F%40benjaminion%2Fwnie2_201018">on his blog on 18 October 2020</a> . (<a href="https://cointelegraph.com/news/ethereum-2-0-deposit-contract-to-launch-this-week-consensys-dev">See more info</a>) Though it&rsquo;s not an official statement and probably a little bit optimistic, it seems that we are very close to the ETH 2.0 phase 0 launch. So let&rsquo;s try to explain phase 0 first in this article.</del></p>
+<p><strong>Edit:</strong> ETH 2.0 deposit contract released! <a href="https://blog.ethereum.org/2020/11/04/eth2-quick-update-no-19/">It&rsquo;s happening!</a></p>
+<h1 id="phase-0-the-beacon-chain">Phase 0: the beacon chain</h1>
+<p>There are many great and primary explainers about the beacon chain and I pick one for you.</p>
+<p><a href="https://ethereum.org/en/eth2/the-beacon-chain/">https://ethereum.org/en/eth2/the-beacon-chain/</a></p>
+<p>Just read it. :)</p>
+<p>In this article, I don&rsquo;t want to explain too further about the beacon chain cause if  I do that, the shard chains must put on the table and I have to introduce shards, slots, epochs, validations, attestations, crosslinks, committees, checkpoints, finality, staking rewards and penalties one by one.  As you can see, we solely introduce the beacon chain in phase 0 but not the shard chains which will be shipped in phase 1. That&rsquo;s so awkward!</p>
+<p>Currently, just remember the beacon chain&rsquo;s main role in ETH 2.0 is making sure all the shards have the most up-to-date data and the beacon chain will be responsible for registering validators and coordinating everyone&rsquo;s staked ETH in phase 0.</p>
+<p><img src="/images/ph0.png" alt="image">
+(A screenshot of <a href="https://ethos.dev/ethereum-2020-roadmap/">Ethereum 2020: A Roadmap and Outlook</a>, written by <a href="https://twitter.com/emergencekirk">Kirk Dameron</a>)</p>
+</article>
+
+        </main><footer id="footer">
+    
+</footer>
+</body>
+</html>
